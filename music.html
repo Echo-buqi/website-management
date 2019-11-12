@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/music.css">
+</head>
+
+<body>
+    <div id="music">
+        <div id="container">
+            <h3 id="musicName">起风了-- 买辣椒也用券(冯沁苑)</h3>
+            <img src="./image/起风了-- 买辣椒也用券(冯沁苑).jpg" id="musicImg">
+            <audio src="./music/起风了-- 买辣椒也用券(冯沁苑).mp3" controls id="audio"></audio>
+            <div class="btn">
+                <button id="prev"><span class="glyphicon glyphicon-step-backward"></button>
+                <button id="play"><span class="glyphicon glyphicon-play"></span></button>
+                <button id="pause"><span class="glyphicon glyphicon-pause"></span></button>
+                <button id="next"><span class="glyphicon glyphicon-step-forward"></button>
+            </div>
+        </div>
+    </div>
+    <!-- 封装的方法myway.js放在index.js之前 src是同步线程 -->
+    <script src="./js/myway.js"></script>
+    <script src="./js/music.js"></script>
+</body>
+
+</html>
