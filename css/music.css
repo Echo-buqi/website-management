@@ -1,0 +1,48 @@
+#music {
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 20px auto;
+    position: relative;
+    background: url("../image/bg.jpg") no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    /*实现背景图片透明，内容不透明*/
+    background: rgba(255, 255, 255,0.2);
+}
+
+#musicImg {
+    width: 275px;
+    height: 240px;
+    border-radius: 50%;
+}
+
+audio {
+    display: block;
+    margin: 10px auto;
+    margin-bottom: 5px;
+}
+
+#musicName {
+    padding-top: 5px;
+    line-height: 15px;
+    color: black;
+}
+
+.btn>button {
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background: rgb(240, 5, 5);
+}
